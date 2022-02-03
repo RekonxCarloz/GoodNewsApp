@@ -17,6 +17,7 @@
 		4C2EA27D27AAF23300AC582D /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2EA27C27AAF23300AC582D /* Webservice.swift */; };
 		4C2EA28027AC36CF00AC582D /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2EA27F27AC36CF00AC582D /* Article.swift */; };
 		4C2EA28327AC3FDB00AC582D /* ArticleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2EA28227AC3FDA00AC582D /* ArticleViewModel.swift */; };
+		4C2EA28727AC448C00AC582D /* ArticleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2EA28627AC448C00AC582D /* ArticleTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		4C2EA27C27AAF23300AC582D /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
 		4C2EA27F27AC36CF00AC582D /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
 		4C2EA28227AC3FDA00AC582D /* ArticleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleViewModel.swift; sourceTree = "<group>"; };
+		4C2EA28627AC448C00AC582D /* ArticleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 		4C2EA26027AAE93100AC582D /* GoodNewsApp */ = {
 			isa = PBXGroup;
 			children = (
+				4C2EA28527AC447900AC582D /* Cells */,
 				4C2EA28127AC3FCB00AC582D /* ViewModels */,
 				4C2EA27E27AC368300AC582D /* Model */,
 				4C2EA27B27AAF21C00AC582D /* Services */,
@@ -118,6 +121,14 @@
 				4C2EA26727AAE93100AC582D /* Main.storyboard */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		4C2EA28527AC447900AC582D /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				4C2EA28627AC448C00AC582D /* ArticleTableViewCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,6 +207,7 @@
 				4C2EA28027AC36CF00AC582D /* Article.swift in Sources */,
 				4C2EA26427AAE93100AC582D /* SceneDelegate.swift in Sources */,
 				4C2EA27D27AAF23300AC582D /* Webservice.swift in Sources */,
+				4C2EA28727AC448C00AC582D /* ArticleTableViewCell.swift in Sources */,
 				4C2EA28327AC3FDB00AC582D /* ArticleViewModel.swift in Sources */,
 				4C2EA26C27AAE93100AC582D /* GoodNewsApp.xcdatamodeld in Sources */,
 			);
