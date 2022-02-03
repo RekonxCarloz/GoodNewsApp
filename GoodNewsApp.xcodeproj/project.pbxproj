@@ -14,6 +14,8 @@
 		4C2EA26E27AAE93700AC582D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C2EA26D27AAE93700AC582D /* Assets.xcassets */; };
 		4C2EA27127AAE93800AC582D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C2EA26F27AAE93800AC582D /* LaunchScreen.storyboard */; };
 		4C2EA27927AAEAB400AC582D /* NewsListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2EA27827AAEAB400AC582D /* NewsListTableViewController.swift */; };
+		4C2EA27D27AAF23300AC582D /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2EA27C27AAF23300AC582D /* Webservice.swift */; };
+		4C2EA28027AC36CF00AC582D /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2EA27F27AC36CF00AC582D /* Article.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		4C2EA27027AAE93800AC582D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C2EA27227AAE93800AC582D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C2EA27827AAEAB400AC582D /* NewsListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListTableViewController.swift; sourceTree = "<group>"; };
+		4C2EA27C27AAF23300AC582D /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
+		4C2EA27F27AC36CF00AC582D /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 		4C2EA26027AAE93100AC582D /* GoodNewsApp */ = {
 			isa = PBXGroup;
 			children = (
+				4C2EA27E27AC368300AC582D /* Model */,
+				4C2EA27B27AAF21C00AC582D /* Services */,
 				4C2EA26127AAE93100AC582D /* AppDelegate.swift */,
 				4C2EA26327AAE93100AC582D /* SceneDelegate.swift */,
 				4C2EA26727AAE93100AC582D /* Main.storyboard */,
@@ -76,6 +82,23 @@
 				4C2EA27827AAEAB400AC582D /* NewsListTableViewController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4C2EA27B27AAF21C00AC582D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4C2EA27C27AAF23300AC582D /* Webservice.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		4C2EA27E27AC368300AC582D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4C2EA27F27AC36CF00AC582D /* Article.swift */,
+			);
+			name = Model;
+			path = "Modeñl";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,7 +174,9 @@
 			files = (
 				4C2EA27927AAEAB400AC582D /* NewsListTableViewController.swift in Sources */,
 				4C2EA26227AAE93100AC582D /* AppDelegate.swift in Sources */,
+				4C2EA28027AC36CF00AC582D /* Article.swift in Sources */,
 				4C2EA26427AAE93100AC582D /* SceneDelegate.swift in Sources */,
+				4C2EA27D27AAF23300AC582D /* Webservice.swift in Sources */,
 				4C2EA26C27AAE93100AC582D /* GoodNewsApp.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
