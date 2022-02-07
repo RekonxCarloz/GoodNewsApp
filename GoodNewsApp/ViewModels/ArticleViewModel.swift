@@ -8,7 +8,7 @@
 import Foundation
 
 struct ArticleListViewModel{
-    private let articleList: [Article]
+    let articleList: [Article]
 }
 
 extension ArticleListViewModel{

@@ -49,8 +49,8 @@
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <outlet property="description" destination="Cok-9P-uy9" id="YgY-9l-dhT"/>
-                                    <outlet property="title" destination="lOp-4Z-Cm5" id="chk-0H-mQ9"/>
+                                    <outlet property="descriptionLabel" destination="Cok-9P-uy9" id="cGX-HL-11G"/>
+                                    <outlet property="title" destination="lOp-4Z-Cm5" id="CBw-Pt-heh"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
